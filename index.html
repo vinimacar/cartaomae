@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão Digital - Dia das Mães</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .card {
+            border-radius: 15px;
+        }
+        .header {
+            background-color: #ff4c94;
+            color: white;
+            padding: 30px;
+            border-radius: 15px 15px 0 0;
+            text-align: center;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 20px;
+        }
+        .media-content {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .media-content img, .media-content video {
+            max-width: 100%;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Início do Cartão -->
+    <div class="container mt-5">
+        <div class="card shadow-lg">
+            <!-- Cabeçalho -->
+            <div class="header">
+                <h1>Feliz Dia das Mães!</h1>
+                <p>Uma mensagem de carinho e amor para você.</p>
+            </div>
+
+            <!-- Conteúdo -->
+            <div class="card-body">
+                <div class="media-content">
+                    <h3>Fotos Especiais</h3>
+                    <!-- Imagem da Mãe -->
+                    <img src="foto_mae.jpg" alt="Mãe" class="img-fluid mb-4">
+
+                    <h3>Áudio Especial</h3>
+                    <!-- Áudio -->
+                    <audio controls>
+                        <source src="audio_mensagem.mp3" type="audio/mp3">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+
+                    <h3>Vídeo Especial</h3>
+                    <!-- Vídeo -->
+                    <video controls>
+                        <source src="video_mensagem.mp4" type="video/mp4">
+                        Seu navegador não suporta o elemento de vídeo.
+                    </video>
+                </div>
+            </div>
+
+            <!-- Rodapé -->
+            <div class="footer">
+                <p>Com amor de seu filho Vinícius Machado de Carvalho.</p>
+                <h6>Maio 2025</h6>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS e dependências (Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
